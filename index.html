@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,66 +16,82 @@
   </style>
 </head>
 <body>
-
+<main>
+  <div class="profile card">
+    <div class="profile__pic"><img class="profile__pic--display" src="/images/image-jeremy.png"> </div>
   Report for
-  Jeremy Robson
+  <div>Jeremy Robson</div>
 
-  Daily
-  Weekly
-  Monthly
+  <div>Daily</div>
+  <div>Weekly</div>
+  <div>Monthly</div>
+</div>
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
+<div class="card">
+  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-work.svg"></div>
+  <div>Work</div>
+  <!-- 5hrs 
+  Previous - 7hrs daily -->
   32hrs <!-- weekly -->
   Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+  <!-- 103hrs monthly
+  Previous - 128hrs  -->
+</div>
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
+<div class="card">
+  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-play.svg"></div>
+    <div>Play</div>
+  <!-- 1hr daily 
+  Previous - 2hrs -->
   10hrs <!-- weekly -->
   Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+  <!-- 23hrs monthly
+  Previous - 29hrs  -->
+</div>
 
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
+<div class="card">
+  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-study.svg"></div>
+  <div>Study</div>
+  <!-- 0hrs daily
+  Previous - 1hr  -->
   4hrs <!-- weekly -->
   Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
+  <!-- 13hrs monthly
+  Previous - 19hrs  -->
+</div>
 
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
+<div class="card">
+  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-exercise.svg"></div>
+  <div>Exercise</div>
+  <!-- 1hr daily
+  Previous - 1hr  -->
   4hrs <!-- weekly -->
   Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
+  <!-- 11hrs monthly
+  Previous - 18hrs  -->
+</div>
 
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
+<div class="card">
+  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-social.svg"></div>
+  <div>Social</div>
+  <!-- 1hr daily
+  Previous - 3hrs -->
   5hrs <!-- weekly -->
   Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
+  <!-- 21hrs monthly
+  Previous - 23hrs -->
+</div>
 
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
+<div class="card">
+  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-self-care.svg"></div>
+  <div>Self Care</div>
+  <!-- 0hrs daily
+  Previous - 1hr -->
   2hrs <!-- weekly -->
   Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <!-- 7hrs monthly
+  Previous - 11hrs  -->
+</div>
+</main>
 </body>
 </html>
