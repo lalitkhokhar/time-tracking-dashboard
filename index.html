@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Time tracking dashboard</title>
@@ -18,7 +18,7 @@
 <body>
 <main>
   <div class="profile card">
-    <div class="profile__pic"><img class="profile__pic--display" src="/images/image-jeremy.png"> </div>
+    <div class="profile__pic"><img class="profile__pic--display" src="images/image-jeremy.png"> </div>
   Report for
   <div>Jeremy Robson</div>
 
@@ -27,8 +27,9 @@
   <div>Monthly</div>
 </div>
 
-<div class="card">
-  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-work.svg"></div>
+<div class="">
+  <div class="card__top-bar card__top-bar-work"><img class="card__top-bar--image" src="images/icon-work.svg"></div>
+  <div class="card">
   <div>Work</div>
   <!-- 5hrs 
   Previous - 7hrs daily -->
@@ -36,21 +37,25 @@
   Previous - 36hrs <!-- weekly -->
   <!-- 103hrs monthly
   Previous - 128hrs  -->
+  </div>
 </div>
 
-<div class="card">
-  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-play.svg"></div>
-    <div>Play</div>
+<div class="">
+  <div class="card__top-bar card__top-bar-play"><img class="card__top-bar--image" src="images/icon-play.svg"></div>
+  <div class="card">  
+	<div>Play</div>
   <!-- 1hr daily 
   Previous - 2hrs -->
   10hrs <!-- weekly -->
   Previous - 8hrs <!-- weekly -->
   <!-- 23hrs monthly
   Previous - 29hrs  -->
+  </div>
 </div>
 
-<div class="card">
-  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-study.svg"></div>
+<div class="">
+  <div class="card__top-bar card__top-bar-study"><img class="card__top-bar--image" src="images/icon-study.svg"></div>
+  <div class="card">
   <div>Study</div>
   <!-- 0hrs daily
   Previous - 1hr  -->
@@ -58,10 +63,12 @@
   Previous - 7hrs <!-- weekly -->
   <!-- 13hrs monthly
   Previous - 19hrs  -->
+  </div>
 </div>
 
-<div class="card">
-  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-exercise.svg"></div>
+<div class="">
+  <div class="card__top-bar card__top-bar-exercise"><img class="card__top-bar--image" src="images/icon-exercise.svg"></div>
+  <div class="card">
   <div>Exercise</div>
   <!-- 1hr daily
   Previous - 1hr  -->
@@ -69,10 +76,12 @@
   Previous - 5hrs <!-- weekly -->
   <!-- 11hrs monthly
   Previous - 18hrs  -->
+  </div>
 </div>
 
-<div class="card">
-  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-social.svg"></div>
+<div class="">
+  <div class="card__top-bar card__top-bar-social"><img class="card__top-bar--image" src="images/icon-social.svg"></div>
+  <div class="card">
   <div>Social</div>
   <!-- 1hr daily
   Previous - 3hrs -->
@@ -80,10 +89,12 @@
   Previous - 10hrs <!-- weekly -->
   <!-- 21hrs monthly
   Previous - 23hrs -->
+  </div>
 </div>
 
-<div class="card">
-  <div class="card__top-bar"><img class="card__top-bar--image" src="/images/icon-self-care.svg"></div>
+<div class="">
+  <div class="card__top-bar card__top-bar-self-care"><img class="card__top-bar--image" src="images/icon-self-care.svg"></div>
+  <div class="card">
   <div>Self Care</div>
   <!-- 0hrs daily
   Previous - 1hr -->
@@ -91,6 +102,7 @@
   Previous - 2hrs <!-- weekly -->
   <!-- 7hrs monthly
   Previous - 11hrs  -->
+  </div>
 </div>
 </main>
 </body>
